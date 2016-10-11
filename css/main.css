@@ -1,0 +1,130 @@
+body
+{
+	overflow-x: hidden;
+}
+/* Navbar and links*/
+.navbar-custom
+{
+	position: absolute;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+	padding: 20px 0px;
+	background-color: transparent;
+
+}
+.headerLink
+{
+	font-size: 16px;
+	font-weight: bold;
+	color: black !important;
+}
+
+
+/* Image and icon */
+.principalContainer
+{
+
+	background-image: url("../img/background.jpg");
+	background-size: 100% 100%;
+	/*background-color: #4A89DC;*/
+	height: 800px;
+}
+
+.contentContainer
+{
+	text-align: center;
+	position: relative;
+	top: 250px;
+}
+
+.contentText
+{
+	font-size: 100px;
+	color: white;
+}
+
+
+/* First Icon Container*/
+
+.firstIconContainer
+{
+	padding: 80px 90px;
+	height: auto;
+}
+
+.firstIcon
+{
+	text-align: center;
+}
+
+.iconTittle
+{
+	margin-top: 15px;
+	font-size: 22px;
+}
+
+
+
+/* Description */
+
+.descriptionContainer
+{
+	height: auto;
+	background-color: #282b2d;
+	text-align: center;
+	padding: 50px;
+}
+
+.description h2
+{
+	margin: 0 auto;
+	width: 50%;
+	color: white;
+}
+
+.description h2 span
+{
+	color: green;
+}
+
+/* Second Icons Container*/
+
+.secondIconContainer
+{
+	padding: 80px 90px;
+	height: auto;
+	margin-bottom: 60px;
+}
+
+.secondIcon
+{
+	margin-top: 50px;
+	text-align: center;
+}
+
+
+/*Step container*/
+
+.stepContainer
+{
+	text-align: center;
+
+}
+
+.step
+{
+	text-align: center;
+}
+
+.step img
+{
+	width: 300px;
+}
+
+.step p
+{
+	font-size: 40px;	
+	position: relative;
+	top: 110px;
+}

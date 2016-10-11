@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+    	<meta charset="utf-8">
+    	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
+    	<title>Mr.Web</title>
+    	<link href="css/bootstrap.min.css" rel="stylesheet">
+    	<link href="css/bootflat.min.css" rel="stylesheet">
+    	<link rel="stylesheet" type="text/css" href="css/main.css">
+        <link rel="stylesheet" type="text/css" href="css/animate.css">
+  	</head>
+  	<body>
+  		<div class="navbar navbar-custom">
+        <!-- <div class="navbar"> -->
+     		<div class="container">
+          		<div class="navbar-header">
+               		<img src="img/logo.png">
+          		</div>
+         		 <div class="collapse navbar-collapse" id="navMain">
+               		<ul class="nav navbar-nav pull-right">
+                    	<li><a class="headerLink" href="#">INICIO</a></li>
+                    	<li><a class="headerLink" href="#">QUIENES SOMOS</a></li>
+                    	<li><a class="headerLink" href="#">ACCESO A MIEMBROS</a></li> 
+               		</ul>
+          		</div>
+     		</div>
+		</div>
+        <div class="row">
+            <div class="col-md-12 principalContainer">
+                <div class="row contentContainer">
+                    <div class="col-md-6">
+                        <h1 class="contentText wow bounceInLeft">ENTRENADOR PERSONAL</h1>
+                    </div>
+                    <div class="col-md-6">
+                        <img class="wow bounceInRight" src="img/computer.png" id="principalImage">
+                     </div>
+                </div>
+            </div>
+        </div>
+        <div class="row firstIconContainer">
+            <div class="col-md-3 firstIcon wow fadeInLeft">
+                <img src="img/icon1.png" alt="">
+                <p class="iconTittle">Web privada</p>
+            </div>
+            <div class="col-md-3 firstIcon wow fadeInLeft">
+                <img src="img/icon2.png" alt="">
+                <p class="iconTittle">Entrenamiento personalizado</p>
+            </div>
+            <div class="col-md-3 firstIcon wow fadeInRight">
+                <img src="img/icon3.png" alt="">
+                <p class="iconTittle">Video conferencia</p>
+            </div>
+            <div class="col-md-3 firstIcon wow fadeInRight">
+                <img src="img/icon4.png" alt="">
+                <p class="iconTittle">Certificaciones</p>
+            </div>
+        </div>
+        <div class="row descriptionContainer">
+            <div class="col-md-12 description">
+                <h2>Conoce algunos de los beneficios de las membresías de <span>Mr Web</span></h2>
+            </div>
+        </div>
+        <div class="row secondIconContainer">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2>Amamos lo que hacemos</h2>
+                </div>
+            </div>
+            <div class="col-md-3 secondIcon wow fadeInLeft">
+                <img src="img/icon5.png" alt="">
+            </div>
+            <div class="col-md-3 secondIcon wow fadeInLeft">
+                <img src="img/icon6.png" alt="">
+            </div>
+            <div class="col-md-3 secondIcon wow fadeInRight">
+                <img src="img/icon7.png" alt="">
+            </div>
+            <div class="col-md-3 secondIcon wow fadeInRight">
+                <img src="img/icon8.png" alt="">
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row stepContainer">
+                <div class="col-md-6 step wow fadeIn">
+                    <img src="img/one.png" alt="">
+                </div>
+                <div class="col-md-6 step wow fadeIn">
+                    <p>Unete a Mr.Web</p>
+                </div>
+            </div>
+            <div class="row stepContainer">
+                <div class="col-md-6 step wow fadeIn">
+                    <p>Chatea con un Experto</p>
+                </div>
+                <div class="col-md-6 step wow fadeIn">
+                    <img src="img/two.png" alt="">
+                </div>
+            </div>
+            <div class="row stepContainer">
+                <div class="col-md-6 step wow fadeIn">
+                    <img src="img/three.png" alt="">
+                </div>
+                <div class="col-md-6 step wow fadeIn">
+                    <p>Implementa lo aprendido</p>
+                </div>
+            </div>
+            <div class="row stepContainer">
+                <div class="col-md-6 step wow fadeIn">
+                    <p>Accede a diseño profesional</p>
+                </div>
+                <div class="col-md-6 step wow fadeIn">
+                    <img src="img/four.png" alt="">
+                </div>
+            </div>
+        </div>
+    	<script src="js/jquery.min.js"></script>
+    	<script src="js/bootstrap.min.js"></script>
+        <script src="js/wow.min.js"></script>
+        <script>
+            new WOW().init()
+        </script>
+        <script>
+            $(".principalContainer").mousemove(function(e)
+                {
+                    var posX = (e.pageX * -0.1 / 6);
+                    var posY = (e.pageY * -0.1 / 6);
+                    $(this).css("background-position", posX + "px " + posY + "px");
+                });
+        </script>
+  	</body>
+</html>
